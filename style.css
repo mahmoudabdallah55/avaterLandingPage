@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&family=Raleway:wght@400;700&family=Roboto+Mono:ital,wght@0,100;0,200;0,500;1,300&family=Ubuntu&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color:#fff;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+
+    background-image:linear-gradient(to right,#01022d,#0000002b), url(./download.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100vw;
+    height: 100vh;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 10px 0 ;
+    height: 600px;
+
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#fff;
+    margin-top: 30px;
+}
+.navbar .logo {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 4px;
+    font-weight: bold;
+
+}
+.navbar ul {
+    display:flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.navbar ul li {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0 25px;
+
+}
+.navbar ul li a:hover {
+    border-bottom: #fff 2px solid;
+
+}
+.text {
+    width: 50%;
+    color: #fff;
+    padding: 20px 10px;
+    margin-top: 100px;
+ 
+    
+
+}
+.text h1 {
+    font-size: 83px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.text p {
+    line-height: 1.6;
+}
+.text .btn {
+    display: inline-block;
+    margin-top: 23px;
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.text .btn:hover {
+    background-color: transparent;
+    color: red;
+    border: 2px solid red;
+}
